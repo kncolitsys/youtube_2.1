@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="com.sebduggan.mango.plugins.youtube" name="YouTube" version="1.1" provider-name="Seb Duggan" class="youtube.Handler">
+	
+	<description>
+		<![CDATA[
+		A plugin to embed a YouTube video in your page. Use the format <code>[youtube:<i>videoid</i>]</code>.
+		]]>
+	</description>	
+	
+	<requiresVersion match="greaterOrEqual">1.0</requiresVersion>
+
+	<listens>
+		<event name="pageGetContent" type="synch" priority="5" />
+		<event name="postGetContent" type="synch" priority="5" />
+	</listens>
+
+</plugin>

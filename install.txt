@@ -1,0 +1,11 @@
+To install YouTube, simply copy the youtube folder into the folder:
+
+	%mango_root%/components/plugins/user
+
+Then:
+
+	- log into the Mango administrator
+	- go into Add-ons
+	- and activate YouTube
+
+...and you're done!
